@@ -9,7 +9,7 @@ board = [
     [1,2,0,0,0,7,4,0,0],
     [0,4,9,2,0,6,0,0,7]
 ]
-
+ 
 
 def solve(bo):
     find = find_empty(bo)
@@ -79,5 +79,5 @@ def find_empty(bo):
 print_board(board)
 solve(board)
 print("___________________")
-print('This is the solved sudoku puzzle')
+print('\nThis is the solved sudoku puzzle')
 print_board(board)
